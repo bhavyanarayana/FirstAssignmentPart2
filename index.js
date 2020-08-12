@@ -1,7 +1,7 @@
 var express =  require('express');
 var fs = require('fs');
 var app = express();
-const port = process.env.port || 8080;
+const port = process.env.port || 3000;
 app.listen(port, function(err, data){
     console.log('Application is running on port: '+port);
 });

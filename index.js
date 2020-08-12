@@ -7,7 +7,7 @@ app.listen(port, function(err, data){
 });
 
 app.get('/', function(req,res){
-    var data = fs.readFileSync('package.json');
+    var data = fs.readFileSync('Employee.json');
     console.log(data.toString());
     //we can use like this
     //res.setHeader('Content-Type', 'application/json');

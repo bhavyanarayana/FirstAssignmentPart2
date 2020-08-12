@@ -6,7 +6,7 @@ app.listen(port, function(err, data){
     console.log('Application is running on port: '+port);
 });
 
-app.get('/', function(req,res){
+app.get('/val', function(req,res){
     var data = fs.readFileSync('Employee.json');
     console.log(data.toString());
     //we can use like this
